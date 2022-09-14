@@ -37,5 +37,5 @@ app.listen(5000, () => {
 // POST route : send data to the backend and manipulate the database
 app.post('/venues', (req, res) => {
     Object.assign(database, req.body)
-    console.log('New data added to database')
+    //console.log('New data added to database')
 })
